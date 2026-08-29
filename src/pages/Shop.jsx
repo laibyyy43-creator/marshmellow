@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import products from "../data/products";
 import ProductCard from "../components/ProductCard";
-import "../styles/Shop.css";
+import "../styles/shop.css";
 
 function Shop() {
   const [searchTerm, setSearchTerm] = useState("");
